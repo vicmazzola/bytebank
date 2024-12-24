@@ -65,3 +65,33 @@
 .faq {
     background-image: url("../images/icon-faq.png")
 }
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        padding: 1em 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sidebar__avatar {
+        width: 50px;
+        margin: 0 1em;
+    }
+
+    .sidebar h2 {
+        font-size: 12px;
+    }
+
+    .sidebar__links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .sidebar__links a {
+        font-size: 14px;
+    }
+}
