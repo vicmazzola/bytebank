@@ -59,3 +59,4 @@ yenWorker.addEventListener("message", event => {
     addData(yenChart, time, value);
     selectQuote("yen", value)
 })
+
