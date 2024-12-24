@@ -3,3 +3,10 @@
     text-align: center;
     color: var(--purple);
 }
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 12px;
+        padding-bottom: 1em;
+    }
+}
