@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="./images/money-send-svgrepo-com.svg" />
+  <title>ByteBank</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="container">
+  <aside class="sidebar">
+    <img src="./images/logo.png" alt="Bytebank logo" />
+    <img src="./images/avatar3.jpg" alt="User avatar" class="sidebar__avatar" />
+    <h2>Just Bank</h2>
+    <hr class="sidebar__line" />
+    <nav class="sidebar__links">
+      <a href="#"><span class="links__icon dashboard"></span>Dashboard</a>
+      <a href="#"><span class="links__icon vault">Investments</a>
+      <a href="#"><span class="links__icon settings">My Account</a>
+      <a href="#"><span class="links__icon faq">Frequently Asked Questions</a>
+    </nav>
+  </aside>
+
+  <main class="data">
+    <header class="header">
+      <h2>Hello, User! Here are the details of your quotation:</h2>
+    </header>
+
+    <article class="dollarData">
+      <div class="chart">
+        <div class="chart__title">
+          <span class="chart__illustration-dollar"></span>
+          <h3>Currency fluctuation since login</h3>
+        </div>
+        <canvas id="dollarChart"></canvas>
+      </div>
+
+      <div class="investments">
+        <h3>Currency values</h3>
+        <ul class="investments__list" id="dollar" data-list>
+        </ul>
+      </div>
+    </article>
+    <article class="yenData">
+      <div class="chart">
+        <div class="chart__title">
+          <span class="chart__illustration-yen"></span>
+          <h3>Currency fluctuation since login</h3>
+        </div>
+        <canvas id="yenChart"></canvas>
+      </div>
+
+      <div class="investments">
+        <h3>Currency values</h3>
+        <ul class="investments__list" id="yen" data-list>
+        </ul>
+      </div>
+    </article>
+
+    <footer class="footer">
+      <p>Dashboard - Developed by Alura</p>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./script/scripts.js" type="module"></script>
+</body>
+
+</html>
