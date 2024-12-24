@@ -3,9 +3,6 @@
 This JavaScript course covers fundamental and practical concepts related to using threads and asynchrony to handle simultaneous requests. Throughout the course, you will develop a real-world project applying multithreading techniques and understand advanced concepts like concurrency and parallelism.
 
 ## Live Demo
-
-Explore the live application at: [ByteBank](https://bytebank-psi.vercel.app/)
-## Live Demo
 Explore the live application at: [ByteBank](https://bytebank-psi.vercel.app/)
 
 *Note: The application is currently optimized for larger screens and is not fully responsive yet.*
